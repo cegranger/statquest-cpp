@@ -1,6 +1,6 @@
 // Benchmark on the moving max algorithm from hackerrank deque STL C++ problem between a solution with an int and a deque.
 // run on https://quick-bench.com/ 
-// when the k is small the int is marginally faster and when the k is large ~N/2 the int solution is 2.5x the deque solution.
+// when the k is small the int is marginally faster and when the k is large ~N/2 the int solution is 2x faster.
 
 #include <iostream>
 #include <deque>
