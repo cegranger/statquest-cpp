@@ -48,6 +48,14 @@ static void PrintKMaxInt(benchmark::State& state){
    arr[i] = std::rand();
   }
 
+  // zeroes with ones every k-1
+  //for (int i = 0; i < n ; i++){
+  //  if (i % (k-1) == 0)
+  //    arr[i] = 1;
+  //  else
+  //    arr[i] = 0;
+  //}
+
   // Code inside this loop is measured repeatedly
   for (auto _ : state) {
 
@@ -105,6 +113,14 @@ static void PrintKMaxDeque(benchmark::State& state){
   for (int i = 0; i < n ; i++){
    arr[i] = std::rand();
   }
+
+  // zeroes with ones every k-1
+  //for (int i = 0; i < n ; i++){
+  //  if (i % (k-1) == 0)
+  //    arr[i] = 1;
+  //  else
+  //    arr[i] = 0;
+  //}
 
   // Code inside this loop is measured repeatedly
   for (auto _ : state) {
