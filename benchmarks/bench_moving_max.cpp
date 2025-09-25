@@ -5,18 +5,22 @@
 // increasing array 5K with k=2   1.3x slower
 // decreasing array 5K with k=2   1.2x faster
 // random array 5K with k=2       1.3x faster
+// zeros with k-1 spaced ones     1.3x faster
 //
 // increasing array 5K with k=20  1.8x faster
 // decreasing array 5K with k=20  4.1x slower
 // random array 5K with k=20      2.6x faster
+// zeros with k-1 spaced ones     1.7x faster
 //
 // increasing array 5K with k=200  1.8x faster
 // decreasing array 5K with k=200  36x slower
 // random array 5K with k=200      3.9x faster
+// zeros with k-1 spaced ones      1.3x faster
 //
 // increasing array 5K with k=2000  1.8x faster
 // decreasing array 5K with k=2000  270x slower
 // random array 5K with k=2000      6.7x faster
+// zeros with k-1 spaced ones       1.4x faster
 
 #include <iostream>
 #include <deque>
